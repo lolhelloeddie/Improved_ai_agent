@@ -4,9 +4,9 @@ import logging
 import sqlite3
 import numpy as np
 from typing import List, Dict, Any, Optional, Tuple
-from sentence_transformers import SentenceTransformer
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 import torch
+from sentence_transformers import SentenceTransformer
 
 def setup_logger(name: str, log_file: str) -> logging.Logger:
     """Set up a logger with file and console handlers."""
