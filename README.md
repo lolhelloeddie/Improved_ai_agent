@@ -1,5 +1,3 @@
-# Improv
-
 # AI Agent GUI - Local Setup Guide
 
 ## Prerequisites
