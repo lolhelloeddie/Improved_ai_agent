@@ -1,1 +1,25 @@
-
+{
+  "model": {
+    "embedding_model": "all-MiniLM-L6-v2",
+    "generation_model": "gpt2",
+    "use_gpu": false,
+    "model_cache_dir": "./models"
+  },
+  "database": {
+    "path": "./data/vector_db.db",
+    "vector_dimension": 384
+  },
+  "learning": {
+    "feedback_threshold": 0.7,
+    "learning_rate": 0.001
+  },
+  "security": {
+    "safe_mode": true,
+    "execution_timeout": 30,
+    "allowed_operations": ["read", "analyze", "generate"]
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "./logs/ai_agent.log"
+  }
+}
