@@ -1,6 +1,6 @@
 
 # Core AI/ML libraries
-torch==2.10.0
+torch==2.13.0
 transformers>=4.20.0
 sentence-transformers>=2.2.0
 scikit-learn>=1.0.0
